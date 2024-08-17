@@ -9,23 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0cc73edc-f20e-48d8-8a58-501e0a48a546" name="Changes" comment="Added repository and domain models">
-      <change afterPath="$PROJECT_DIR$/Accounting.Infrastructure/AccountingDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Accounting.Infrastructure/Repositories/AccountRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Accounting.Infrastructure/Repositories/CustomerRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Accounting.Infrastructure/Repositories/InvoiceItemRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Accounting.Infrastructure/Repositories/InvoiceRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Accounting.Infrastructure/Repositories/JournalEntryRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Accounting.Infrastructure/Repositories/JournalRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Accounting.Infrastructure/Repositories/RoleRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Accounting.Infrastructure/Repositories/TransactionRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Accounting.Infrastructure/Repositories/UserRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Accounting.Infrastructure/Repositories/VendorRepository.cs" afterDir="false" />
+    <list default="true" id="0cc73edc-f20e-48d8-8a58-501e0a48a546" name="Changes" comment="&#10;Created repository in infra project updated domain models">
+      <change afterPath="$PROJECT_DIR$/Accounting.API/UsersController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Accounting/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Accounting/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Accounting.Domain/Domain/Customer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Accounting.Domain/Domain/Customer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Accounting.Domain/Domain/Vendor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Accounting.Domain/Domain/Vendor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Accounting.Domain/Repositories/ITransactionRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Accounting.Domain/Repositories/ITransactionRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Accounting.Infrastructure/Accounting.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Accounting.Infrastructure/Accounting.Infrastructure.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accounting.API/Accounting.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Accounting.API/Accounting.API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accounting.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Accounting.API/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +66,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Project.Accounting.Databse">
+  <component name="RunManager" selected=".NET Launch Settings Profile.Accounting.API: http">
     <configuration name="Accounting.Databse" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -136,7 +124,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723930199119</updated>
-      <workItem from="1723930200934" duration="4914000" />
+      <workItem from="1723930200934" duration="5685000" />
     </task>
     <task id="LOCAL-00001" summary="Created account project.&#10;Added a database project storing the scripts">
       <option name="closed" value="true" />
@@ -162,7 +150,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723933396379</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="&#10;Created repository in infra project updated domain models">
+      <option name="closed" value="true" />
+      <created>1723935542656</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1723935542657</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +183,7 @@
     <MESSAGE value="Created account project.&#10;Added a database project storing the scripts" />
     <MESSAGE value="Added different layers of project" />
     <MESSAGE value="Added repository and domain models" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added repository and domain models" />
+    <MESSAGE value="&#10;Created repository in infra project updated domain models" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;Created repository in infra project updated domain models" />
   </component>
 </project>
